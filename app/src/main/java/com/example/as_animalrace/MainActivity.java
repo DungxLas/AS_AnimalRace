@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         animal3 = (SeekBar) findViewById(R.id.seekBarAnimal3);
         play = (ImageButton) findViewById(R.id.imageButton);
         play.setOnClickListener(v -> {
-            play.setVisibility(View.GONE);
+            play.setVisibility(View.INVISIBLE);
             Timer timer = new Timer();
             timer.schedule(new TimerTask() {
                 @Override
